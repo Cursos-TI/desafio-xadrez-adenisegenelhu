@@ -5,7 +5,7 @@ int main() {
     int torre, i;
 
     printf("Movimento da Torre\n");
-    printf("Digite quantas casas A direita quer mover a torre: \n");
+    printf("Digite quantas casas a direita quer mover a torre: \n");
     scanf("%d", &torre);
 
     for (i = 1; i <= torre; i++) {
