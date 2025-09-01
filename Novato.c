@@ -5,11 +5,11 @@ int main() {
     int torre, i;
 
     printf("Movimento da Torre\n");
-    printf("Digite quantas casas quer mover a torre: \n");
+    printf("Digite quantas casas a direita quer mover a torre: \n");
     scanf("%d", &torre);
 
     for (i = 1; i <= torre; i++) {
-        printf("A torre moveu %d casa(s) para a direita!\n", i);
+        printf("Direita! \n", i);
     }
 
     // Mover a Rainha em qualquer direção
@@ -53,7 +53,7 @@ int main() {
     printf("\nMovimento do Bispo \n");
 
     while (bispo <= 5) {
-        printf("O bispo moveu %d casa(s) na diagonal para cima, direita!\n", bispo);
+        printf("Cima, direita! \n", bispo);
         bispo++;
     }
 
