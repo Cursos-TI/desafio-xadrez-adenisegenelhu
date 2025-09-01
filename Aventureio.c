@@ -53,7 +53,7 @@ int main() {
     printf("\nMovimento do Bispo \n");
 
     while (bispo <= 5) {
-        printf("Cima, deireita! \n", bispo);
+        printf("Cima, direita! \n", bispo);
         bispo++;
     }
 
